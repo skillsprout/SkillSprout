@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 10px 20px 20px #0000001a;
+    margin: 20px auto;
+}
+
+.section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+.sign-in form,
+.sign-up form { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sign-in form input,
+.sign-up form input { 
+    margin-top: 20px;
+    height: 2vw;
+    width: 20vw;
+    border-radius: 5px;
+    padding: 20px;
+    border: none;
+    background-color: #c4c8c7;
+}
+
+.sign-in button,
+.sign-up button {
+    height: 8%;
+    width: 30%;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #006647;
+    border: none;
+    color: #fff;
+    padding: 10px 10px 25px;
+}
+
+button {
+    transition: .5s linear;
+}
+
+button:hover {
+    background-color: #3f7269;
+    color: #ffffff;
+}
+
+.hero {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    background-color: #006647;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease;
+}
+
+.hero-box {
+    height: 50%;
+    width: 60%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-box h3 {
+    font-size: 2vw;
+}
+
+.hero-box p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hero button {
+    height: 17%;
+    width: 40%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px;
+}
+
+.right-panel-active .hero {
+    transform: translateX(-100%);
+    border-radius: 10px 0px 0px 10px;
+}
+
+@media (max-width: 1300px) {
+    .container {
+        width: 80%;
+    }
+
+    .sign-in form input, .sign-up form input {
+
+        width: 30vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 90%;
+        flex-direction: column;
+        height: 70%;
+    }
+    .hero{
+        display: none;
+    }
+    .sign-in form input, .sign-up form input{
+        width: 60vw;
+    }
+}
