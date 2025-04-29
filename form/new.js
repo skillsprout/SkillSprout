@@ -26,21 +26,21 @@
          });
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    const signUpButton = document.getElementById('signUp');
-    const container = document.querySelector('.container');
-    const heroBoxButton = document.querySelector('.hero-box button');
+// document.addEventListener('DOMContentLoaded', function() {
+//     const signUpButton = document.getElementById('signUp');
+//     const container = document.querySelector('.container');
+//     const heroBoxButton = document.querySelector('.hero-box button');
     
-    signUpButton.addEventListener('click', () => {
-        container.classList.toggle('right-panel-active');
-        // Toggle button text between "Sign Up" and "Sign In"
-        if (heroBoxButton.textContent === 'Sign Up') {
-            heroBoxButton.textContent = 'Sign In';
-        } else {
-            heroBoxButton.textContent = 'Sign Up';
-        }
-    });
-});
+//     signUpButton.addEventListener('click', () => {
+//         container.classList.toggle('right-panel-active');
+//         // Toggle button text between "Sign Up" and "Sign In"
+//         if (heroBoxButton.textContent === 'Sign Up') {
+//             heroBoxButton.textContent = 'Sign In';
+//         } else {
+//             heroBoxButton.textContent = 'Sign Up';
+//         }
+//     });
+// });
 document.addEventListener('DOMContentLoaded', function() {
     const container = document.querySelector('.container');
     const signUpBtns = document.querySelectorAll('#signUp'); // Both "Sign Up" buttons
