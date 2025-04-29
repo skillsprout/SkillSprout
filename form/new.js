@@ -52,11 +52,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-const container = document.querySelector('.container');
-// 700px Sing In logic
-const signUpBtns = document.querySelectorAll('#signUp'); 
-signUpBtns.forEach((btn) => {
-  btn.addEventListener('click', () => {
-    container.classList.toggle('right-panel-active');
-  });
-});
+// const container = document.querySelector('.container');
+// // 700px Sing In logic
+// const signUpBtns = document.querySelectorAll('#signUp'); 
+// signUpBtns.forEach((btn) => {
+//   btn.addEventListener('click', () => {
+//     container.classList.toggle('right-panel-active');
+//   });
+// });
