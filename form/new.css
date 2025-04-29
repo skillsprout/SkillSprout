@@ -192,8 +192,8 @@ button:hover {
         border-radius: 20px 20px 0px 0px;
     }
 
-    hero-box h3 {
-        font-size: 3vw;
+    .hero-box h3 {
+        font-size: 4vw;
     }
     .hero-box p{
         margin: 0 20px;
