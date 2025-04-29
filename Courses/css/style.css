@@ -714,7 +714,8 @@ iframe{
 
   .getStartbtn{
   width:70%;
-    height:4vw;
+    height:20%;
+    font-size:4vw;
   }
 }
 
@@ -727,6 +728,7 @@ iframe{
  }
   .getStartbtn{
   width:70%;
+    height:20%;
     font-size:4vw;
   }
 }
@@ -748,8 +750,9 @@ iframe{
     height: 100px;
     width: 200px;
  }
-  .getStartbtn{
+ .getStartbtn{
   width:70%;
-    height:4vw;
+    height:20%;
+    font-size:4vw;
   }
 }
