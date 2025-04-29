@@ -725,6 +725,10 @@ iframe{
     height: 200px;
     width: 300px;
  }
+  .getStartbtn{
+  width:70%;
+    height:4vw;
+  }
 }
 
 @media (max-width: 450px) {
@@ -744,4 +748,8 @@ iframe{
     height: 100px;
     width: 200px;
  }
+  .getStartbtn{
+  width:70%;
+    height:4vw;
+  }
 }
