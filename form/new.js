@@ -52,6 +52,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    let container = document.getElementById("container");
+});
 
 // 700px Sing In logic
 const signUpBtns = document.querySelectorAll('#signUp'); 
