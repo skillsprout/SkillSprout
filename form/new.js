@@ -41,3 +41,22 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.querySelector('.container');
+    const signUpBtns = document.querySelectorAll('#signUp'); // Both "Sign Up" buttons
+
+    signUpBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+            container.classList.toggle('right-panel-active');
+        });
+    });
+});
+
+
+// 700px Sing In logic
+const signUpBtns = document.querySelectorAll('#signUp'); 
+signUpBtns.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    container.classList.toggle('right-panel-active');
+  });
+});
