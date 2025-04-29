@@ -41,8 +41,8 @@
 //         }
 //     });
 // });
+const container = document.querySelector('.container');
 document.addEventListener('DOMContentLoaded', function() {
-    const container = document.querySelector('.container');
     const signUpBtns = document.querySelectorAll('#signUp'); // Both "Sign Up" buttons
 
     signUpBtns.forEach((btn) => {
@@ -52,11 +52,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// const container = document.querySelector('.container');
-// // 700px Sing In logic
-// const signUpBtns = document.querySelectorAll('#signUp'); 
-// signUpBtns.forEach((btn) => {
-//   btn.addEventListener('click', () => {
-//     container.classList.toggle('right-panel-active');
-//   });
-// });
+// 700px Sing In logic
+document.addEventListener('DOMContentLoaded', () => {
+  const signUpBtns = document.querySelectorAll('#signUp');
+  signUpBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      container.classList.toggle('right-panel-active');
+    });
+  });
+});
