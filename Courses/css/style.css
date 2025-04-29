@@ -712,7 +712,12 @@ iframe{
     margin-top: 10px;
   }
 
+  .getStartbtn{
+  width:70%;
+    height:4vw;
+  }
 }
+
 
 @media (max-width: 510px) {
   
