@@ -53,11 +53,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // 700px Sing In logic
-document.addEventListener('DOMContentLoaded', () => {
-  const signUpBtns = document.querySelectorAll('#signUp');
-  signUpBtns.forEach((btn) => {
-    btn.addEventListener('click', () => {
-      container.classList.toggle('right-panel-active');
-    });
-  });
-});
+
+  // const signUpBtns = document.querySelectorAll('#signUp');
+  // signUpBtns.forEach((btn) => {
+  //   btn.addEventListener('click', () => {
+  //     container.classList.toggle('right-panel-active');
+  //   });
+  // });
