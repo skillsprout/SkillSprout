@@ -216,7 +216,7 @@
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (minmax(32rem, 1fr)) [auto-fit];
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 5rem;
   }
   .team-container{
@@ -227,8 +227,10 @@
     cursor: pointer;
   }
   
-  .team-container .image img{
+    .team-container .image img{
     width: 100%;
+    border-radius: 3%;
+    box-shadow: 10px 10px 15px grey;
   }
   
   .team-info{
@@ -252,13 +254,13 @@
   }
   
   .team-info h3{
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #fff;
     transition: .001s linear;
   }
   
   .team-info p{
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     transition: .001s linear;
     color: #fff;
   }
